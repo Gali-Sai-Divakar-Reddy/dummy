@@ -20,10 +20,10 @@ This is a private repository for Divakar to store all code from the course. The 
 
 ## The lab's overview
 
-Write an overview of the lab.
+This lab, discussed in Lecture 2 with preparatory homework from Lecture 1, comprises two main parts. In Part I, the task involves deploying an Ubuntu 22.04 Virtual Machine within the designated online environment. Following the deployment, the focus is on installing necessary software and applications. Moving on to Part II, will engage in activities such as cloning both the course repository and the private repository. This step is pivotal for completing Git exercises aimed at compiling the content required for the final report.
 
-Also, include a direct clickable link to the lab folder on GitHub.com so that it can be viewed when grading, for example,  [https://github.com/phungph-uc/waph-phungph/tree/main/labs/lab0](https://github.com/phungph-uc/waph-phungph/tree/main/labs/lab0).
-
+Here is the link to the Github repository
+[https://github.com/Sai-Divakar-Reddy-Gali/waph-galisy.git](https://github.com/Sai-Divakar-Reddy-Gali/waph-galisy.git).
 
 ## Part I - Ubuntu Virtual Machine & Software Installation
 
