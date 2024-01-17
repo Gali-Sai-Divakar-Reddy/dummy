@@ -63,7 +63,7 @@ Here is the link to the Github repository
 2. Clonning Remote repository
    Using the SSH key, clone the remote GitHub repository onto our virtual machine. This ensures that we have a local copy of the repository to work with. I have encountered a authentication issue while cloning the repository using the SSH key so I have used the alternative approach to clone the repository by using the tokes. Reference: [Clone a Remote Repository](https://stackoverflow.com/questions/2505096/clone-a-private-repository-github)
 
-   ![Remote repository cloning](https://github.com/Sai-Divakar-Reddy-Gali/https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/Repository_cloning.jpg)
+   ![Remote repository cloning](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/Repository_cloning.jpg)
 3. Editing README file
     Open the README.md file in the cloned repository and made edits following the provided template and push the changes to the remote repository.
     ![Pushing to the remote repository](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/push.jpg)
