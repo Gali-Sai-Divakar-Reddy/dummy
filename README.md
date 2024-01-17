@@ -10,7 +10,7 @@
 
 **Short-bio**: I am in my second semester of the MSIT, I have interest in web development. 
 
-
+![Divakar's headshot](Divakar_headshot.jpg)
 
 ## Repository Information
 
