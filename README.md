@@ -10,7 +10,7 @@
 
 **Short-bio**: I am in my second semester of the MSIT, I have interest in web development. 
 
-
+![Divakar's headshot](photos/Divakar_headshot.jpg)
 
 ## Repository Information
 
@@ -33,14 +33,14 @@ Upon successfully logging into Ubuntu, I utilized the command line to install se
 
 ### Apache Web Server Testing
 
-![Apache_web_server_testing](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/Apache_web_server_testing.jpg)
+![Apache_web_server_testing](photos/Apache_web_server_testing.jpg)
 
 
 ## Part II - git Repositories and Exercises
 
 ### The course repository
 
-![Repository cloning photo](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/course_repo_clonning.jpg)
+![Repository cloning photo](photos/course_repo_clonning.jpg)
 
 ### Private Repository
 
@@ -63,7 +63,7 @@ Here is the link to the Github repository
 2. Clonning Remote repository
    Using the SSH key, clone the remote GitHub repository onto our virtual machine. This ensures that we have a local copy of the repository to work with. I have encountered a authentication issue while cloning the repository using the SSH key so I have used the alternative approach to clone the repository by using the tokes. Reference: [Clone a Remote Repository](https://stackoverflow.com/questions/2505096/clone-a-private-repository-github)
 
-   ![Remote repository cloning](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/Repository_cloning.jpg)
+   ![Remote repository cloning](photos/Repository_cloning.jpg)
 3. Editing README file
     Open the README.md file in the cloned repository and made edits following the provided template and push the changes to the remote repository.
-    ![Pushing to the remote repository](https://github.com/Gali-Sai-Divakar-Reddy/dummy/blob/main/photos/push.jpg)
+    ![Pushing to the remote repository](photos/push.jpg)
