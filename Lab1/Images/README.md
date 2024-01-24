@@ -45,7 +45,11 @@ Using the telnet program to send a minimal HTTP request involves opening a termi
 
 ![Telnet_Request_in_Wireshark](Telnet_Request.png)
 
+The HTTP request sent by a browser is typically more intricate, containing various headers, cookies, compression preferences, and session-specific information. It includes details like the user agent, accepted content types, and referral information. In contrast, a Telnet session involves a more simplified approach, often omitting many of these details. Telnet users may manually construct a basic request without the convenience features provided by browsers, such as automatic inclusion of cookies, compression preferences, and comprehensive headers.
+
 ![Telnet_Response_in_Wireshark](Telnet_Response.png)
+
+The HTTP response sent by a browser and a Telnet session differs in terms of complexity and the amount of information included. When a browser receives an HTTP response from a server, it processes a detailed set of headers and content, including status codes, content types, cookies, and caching directives. In contrast, a Telnet session may involve a more manual and simplified process, often lacking various headers and details found in browser-generated responses. Fields that could be missing in a Telnet session include specific headers like `Set-Cookie` for managing cookies, `Content-Encoding` for compression information, and other nuanced details related to caching and content negotiation. The browser response is more comprehensive, providing additional metadata and facilitating a seamless interaction with web applications.
 
 
 ## Part II - Basic Application Programming
@@ -68,8 +72,8 @@ Using the telnet program to send a minimal HTTP request involves opening a termi
         printf("<html>\n");
         printf("<head><title>WAPH</title></head>\n");
         printf("<body>\n");
-        printf("<h1>Lab1</h1>\n");
-        printf("<p>The lab1 consists of two parts in part 1 HTTP protocols are covered and in part 2 basic web programming is covered</p>\n");
+        printf("<h1>Gali Sai Divakar Reddy</h1>\n");
+        printf("<p>I am in second semester of Masters in Information technology. I have enrolled to WAPH course</p>\n");
         printf("</body>\n");
         printf("</html>\n");
         return 0;
@@ -108,12 +112,8 @@ Using the telnet program to send a minimal HTTP request involves opening a termi
 
 2. curl
 
-    create an HTTP Post Request
-
-    ![curl_POST_request](curl_POST_request_terminal.png)
-
     HTTP stream in Wireshark
 
     ![curl_HTTP_stream_in_Wireshark](curl_HTTP_stream_in_Wireshark.png)
 
-3. HTTP GET and POST requests are both methods used for communication between clients and servers. They share similarities in terms of using the HTTP protocol, containing headers, and specifying a Request URI. However, they differ in how data is submitted GET appends data to the URL, visible in the address bar, while POST sends data in the request body, making it more secure for sensitive information. GET has a size limit based on URL length, suitable for smaller data, while POST can handle larger amounts transmitted in the request body. GET requests can be cached, and their URLs can be bookmarked, whereas POST responses are typically not cached, and bookmarking is less common. Both responses include an HTTP status code indicating the outcome, but GET responses often include the requested data, while POST responses may serve as acknowledgments or include dynamic information. Understanding these distinctions is crucial for effective web application design.
+3. HTTP GET and POST requests are both methods used for communication between clients and servers. They share similarities in terms of using the HTTP protocol, containing headers, and specifying a Request URI. However, they differ in how data is submitted GET appends data to the URL, visible in the address bar, while POST sends data in the request body, making it more secure for sensitive information. GET has a size limit based on URL length, suitable for smaller data, while POST can handle larger amounts transmitted in the request body. GET requests can be cached, and their URLs can be bookmarked, whereas POST responses are typically not cached, and bookmarking is less common. Both responses include an HTTP status code indicating the outcome, but GET responses often include the requested data, while POST responses may serve as acknowledgments or include dynamic information.
