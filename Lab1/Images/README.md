@@ -65,7 +65,8 @@ Wireshark is a powerful tool for examining the HTTP protocol, providing a detail
     ![Index.c_CGI_Program](Index_CGI_program.png)
 
     Included file `index.c`:
-    ```c
+
+    '''
     #include <stdio.h>
     int main(void){
         printf("Content-Type: text/html; charset=utf-8\n\n");
@@ -78,7 +79,7 @@ Wireshark is a powerful tool for examining the HTTP protocol, providing a detail
         printf("</html>\n");
         return 0;
     }
-    ```
+    '''
 
 ### Task 2 - A simple PHP Web Application with user input.
 
@@ -91,11 +92,13 @@ Wireshark is a powerful tool for examining the HTTP protocol, providing a detail
     ![Echo_PHP_Program](Echo_PHP_program.png)
 
     Included file `echo.php`:
-    ```php
+    
+    '''
     <?php
-	echo $_REQUEST["data"];
+	    echo $_REQUEST["data"];
     ?>
-    ```
+    '''
+
     Security Risks:
 
     - If the "data" parameter is populated with user input without proper validation or sanitization, it could be vulnerable to XSS attacks. An attacker might inject malicious scripts that get executed when the page is loaded by other users.
