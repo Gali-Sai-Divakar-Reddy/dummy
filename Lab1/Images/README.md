@@ -37,19 +37,19 @@ Wireshark is a powerful tool for examining the HTTP protocol, providing a detail
 
 ### Task 2 - Understanding HTTP using telnet and Wireshark
 
-Using the telnet program to send a minimal HTTP request involves opening a terminal and establishing a connection to the target server on port 80. After the connection is established, manually craft a basic HTTP request by specifying the HTTP method (e.g., GET), the resource path, and the HTTP version. Press "Enter" twice to send the request. To examine the HTTP messages using Wireshark, initiate a capture on the relevant network interface and apply a display filter for "http" to focus on HTTP traffic. The Wireshark output will display the details of the sent HTTP request, including headers and data.
+1. Using the telnet program to send a minimal HTTP request involves opening a terminal and establishing a connection to the target server on port 80. After the connection is established, manually craft a basic HTTP request by specifying the HTTP method (e.g., GET), the resource path, and the HTTP version. Press "Enter" twice to send the request. To examine the HTTP messages using Wireshark, initiate a capture on the relevant network interface and apply a display filter for "http" to focus on HTTP traffic. The Wireshark output will display the details of the sent HTTP request, including headers and data.
 
-![Sending_Request_by_using_Telnet_in_terminal](Telnet_Request_Terminal.png)
+    ![Sending_Request_by_using_Telnet_in_terminal](Telnet_Request_Terminal.png)
 
-![Telnet_Response_in_Terminal](Telnet_Response_Terminal.png)
+    ![Telnet_Response_in_Terminal](Telnet_Response_Terminal.png)
 
-![Telnet_Request_in_Wireshark](Telnet_Request.png)
+2. The HTTP request sent by a browser is typically more intricate, containing various headers, cookies, compression preferences, and session-specific information. It includes details like the user agent, accepted content types, and referral information. In contrast, a Telnet session involves a more simplified approach, often omitting many of these details. Telnet users may manually construct a basic request without the convenience features provided by browsers, such as automatic inclusion of cookies, compression preferences, and comprehensive headers.
 
-The HTTP request sent by a browser is typically more intricate, containing various headers, cookies, compression preferences, and session-specific information. It includes details like the user agent, accepted content types, and referral information. In contrast, a Telnet session involves a more simplified approach, often omitting many of these details. Telnet users may manually construct a basic request without the convenience features provided by browsers, such as automatic inclusion of cookies, compression preferences, and comprehensive headers.
+    ![Telnet_Request_in_Wireshark](Telnet_Request.png)
 
-![Telnet_Response_in_Wireshark](Telnet_Response.png)
+3. The HTTP response sent by a browser and a Telnet session differs in terms of complexity and the amount of information included. When a browser receives an HTTP response from a server, it processes a detailed set of headers and content, including status codes, content types, cookies, and caching directives. In contrast, a Telnet session may involve a more manual and simplified process, often lacking various headers and details found in browser-generated responses. The browser response is more comprehensive, providing additional metadata and facilitating a seamless interaction with web applications.
 
-The HTTP response sent by a browser and a Telnet session differs in terms of complexity and the amount of information included. When a browser receives an HTTP response from a server, it processes a detailed set of headers and content, including status codes, content types, cookies, and caching directives. In contrast, a Telnet session may involve a more manual and simplified process, often lacking various headers and details found in browser-generated responses. Fields that could be missing in a Telnet session include specific headers like `Set-Cookie` for managing cookies, `Content-Encoding` for compression information, and other nuanced details related to caching and content negotiation. The browser response is more comprehensive, providing additional metadata and facilitating a seamless interaction with web applications.
+    ![Telnet_Response_in_Wireshark](Telnet_Response.png)
 
 
 ## Part II - Basic Application Programming
